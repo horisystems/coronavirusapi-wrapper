@@ -126,4 +126,54 @@ export default class CoronaVirusApiWrapper {
     return this.request(url, config);
   }
 
+  getTimeSeriesConfirmedGlobal(options) {
+    let qs = options ? "?" + querystring.stringify(options) : "";
+
+    let url = "/time_series_confirmed_global" + qs;
+    let config = {
+      method: "GET"
+    };
+    return this.request(url, config);
+  }
+
+  getTimeSeriesConfirmedUs(options) {
+    let qs = options ? "?" + querystring.stringify(options) : "";
+
+    let url = "/time_series_confirmed_us" + qs;
+    let config = {
+      method: "GET"
+    };
+    return this.request(url, config);
+  }
+
+  getTimeSeriesDeathsGlobal(options) {
+    let qs = options ? "?" + querystring.stringify(options) : "";
+
+    let url = "/time_series_deaths_global" + qs;
+    let config = {
+      method: "GET"
+    };
+    return this.request(url, config);
+  }
+
+  getTimeSeriesDeathsUs(options) {
+    let qs = options ? "?" + querystring.stringify(options) : "";
+
+    let url = "/time_series_deaths_us" + qs;
+    let config = {
+      method: "GET"
+    };
+    return this.request(url, config);
+  }
+
+  getTimeSeriesRecoveredGlobal(options) {
+    let qs = options ? "?" + querystring.stringify(options) : "";
+
+    let url = "/time_series_recovered_global" + qs;
+    let config = {
+      method: "GET"
+    };
+    return this.request(url, config);
+  }
+
 }
