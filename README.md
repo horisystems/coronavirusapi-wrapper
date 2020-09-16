@@ -34,24 +34,36 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 $ npm install coronavirusapi-wrapper --save
 ```
 
-## How to use
+## How To Use
 
 ### ES6
 
 ```js
-global.fetch = require("node-fetch");
 
-// to import a specific method
-import CoronaVirusApiWrapper from "coronavirusapi-wrapper";
+import CoronaVirusApiWrapper from 'coronavirusapi-wrapper';
 
-const api = new CoronaVirusApiWrapper({
-  token: "YOUR_TOKEN_HERE"
+const apiWrapper = new CoronaVirusApiWrapper({
+  token: "Your_Token"
 });
 
-// using  method
-api
-  .getSep2020({ username: "bearer", page: 1 })
-  .then(data => console.log(data));
+// Daily Reports for January 2020
+apiWrapper.this.getReportsAt(new Date(Date.parse('jan-2020'))).then(function (d) {
+  console.log("Daily reports for January 2020");
+  console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
+});
+
+// Daily Reports for September 2020
+apiWrapper.getSep2020().then(function (d) {
+  console.log("Daily reports for September 2020");
+  console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
+});
+
+// Get Confirmed Cases TimeSeries in the US
+apiWrapper.getTimeSeriesConfirmedUs().then(function (timeseries) {
+  console.log("Confirmed Cases Time Series in the US");
+  console.log({ code: timeseries.Code, message: timeseries.Message, 1: timeseries.Reports[0].Data });
+});
+
 ```
 
 ### CommonJS
@@ -59,7 +71,7 @@ api
 ```js
 const CoronaVirusApiWrapper = require('coronavirusapi-wrapper').default;
 
-const api = new CoronaVirusApiWrapper({
+const apiWrapper = new CoronaVirusApiWrapper({
   token: "YOUR_TOKEN_HERE"
 });
 ```
@@ -78,13 +90,16 @@ After that the library will be available to the Global as `CoronaVirusApiWrapper
 
 ```js
 
-const api = new CoronaVirusApiWrapper({
-  token: "YOUR_TOKEN_HERE"
+const apiWrapper = new CoronaVirusApiWrapper({
+  token: "Your_Token"
 });
 
-api
-  .getSep2020({ username: "bearer", page: 1 })
-  .then(data => console.log(data));
+// Daily reports for Sep-2020
+apiWrapper.getSep2020().then(function (d) {
+  console.log("Daily reports for September 2020");
+  console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
+});
+
 ```
 
 ## Contributing
@@ -98,6 +113,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 - **Finbarrs Oketunji** _aka 0xnu_ - _Main Developer_ - [0xnu](https://github.com/0xnu)
+- **Amazzal El-habib** _aka 0xnu_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
 
 See also the list of [contributors](https://github.com/Cloudeya/coronavirusapi-wrapper/contributors) who participated in this project.
 
