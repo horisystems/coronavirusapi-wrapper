@@ -24,9 +24,6 @@ This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API
 --- | --- | --- | --- | --- |
 39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
 
-## Dependencies
-
-This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests to the Coronavirus API. For environments that don't support fetch, you'll need to provide a [polyfill](https://github.com/github/fetch) to browser or [polyfill](https://github.com/bitinn/node-fetch) to Node.
 
 ## Installation
 
