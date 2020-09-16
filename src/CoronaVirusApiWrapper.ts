@@ -29,7 +29,6 @@ export default class CoronaVirusApiWrapper {
 
   constructor(config: CoronaVirusApiWrapperConfig) {
     if (!config.token && config.password && config.username) {
-      console.log("Getting token")
       this.token = this.getTokenUsingCredentials(config.username, config.password);
     } else if (config.token) {
       this.token = config.token;
