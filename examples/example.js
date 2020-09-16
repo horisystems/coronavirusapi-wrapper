@@ -6,13 +6,13 @@ const apiWrapper = new CoronaVirusApiWrapper({
 
 // Daily Reports for January 2020
 apiWrapper.this.getReportsAt(new Date(Date.parse('jan-2020'))).then(function (d) {
-  console.log("Daily reports for January 2020");
+  console.log("Daily Reports for January 2020");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
 // Daily Reports for September 2020
 apiWrapper.getSep2020().then(function (d) {
-  console.log("Daily reports for September 2020");
+  console.log("Daily Reports for September 2020");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
