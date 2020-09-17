@@ -1,4 +1,6 @@
 <div align="center">
+
+  <img alt="coronavirusapi-wrapper image" src="assets/coronavirus.png" height="120" />
 	<h1>Coronavirus API Wrapper</h1>
 	<strong> <i>A wrapper to work with the <a href="https://www.covid19api.dev/">Coronavirus API</a></i></strong><br><br>
 
