@@ -24,9 +24,6 @@ This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API
 --- | --- | --- | --- | --- |
 39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
 
-## Dependencies
-
-This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests to the Coronavirus API. For environments that don't support fetch, you'll need to provide a [polyfill](https://github.com/github/fetch) to browser or [polyfill](https://github.com/bitinn/node-fetch) to Node.
 
 ## Installation
 
@@ -113,7 +110,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 - **Finbarrs Oketunji** _aka 0xnu_ - _Main Developer_ - [0xnu](https://github.com/0xnu)
-- **Amazzal El-habib** _aka 0xnu_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
+- **Amazzal El-habib** _aka amazzalel-habib_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
 
 See also the list of [contributors](https://github.com/Cloudeya/coronavirusapi-wrapper/contributors) who participated in this project.
 
