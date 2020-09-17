@@ -110,7 +110,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 - **Finbarrs Oketunji** _aka 0xnu_ - _Main Developer_ - [0xnu](https://github.com/0xnu)
-- **Amazzal El-habib** _aka 0xnu_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
+- **Amazzal El-habib** _aka amazzalel-habib_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
 
 See also the list of [contributors](https://github.com/Cloudeya/coronavirusapi-wrapper/contributors) who participated in this project.
 
