@@ -100,13 +100,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Cloudeya/coronavirusapi-wrapper/tags).
 
-## Authors
-
-- **Finbarrs Oketunji** _aka 0xnu_ - _Main Developer_ - [0xnu](https://github.com/0xnu)
-- **Amazzal El-habib** _aka amazzalel-habib_ - _Developer_ - [amazzalel-habib](https://github.com/amazzalel-habib)
-
-See also the list of [contributors](https://github.com/Cloudeya/coronavirusapi-wrapper/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the [WTFPL License](LICENSE) - see the file for details.
