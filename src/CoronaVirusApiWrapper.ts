@@ -118,6 +118,10 @@ export default class CoronaVirusApiWrapper {
     return this.getReportsAt(new Date(Date.parse("oct-2020")));
   }
 
+  getNov2020(): Promise<IGlobalDailyReport | Error> {
+    return this.getReportsAt(new Date(Date.parse("nov-2020")));
+  }
+
   async getTimeSeriesFor(
     type: TimeSeriesType,
     country: TimeSeriesCountry
