@@ -47,7 +47,7 @@ describe('CoronaVirusApiWrapper Library', function () {
     const token = await api.token;
     expect(token).toBe('token');
   });
-  it('should get data when calling one of the dailly cases request- getAug2020', async () => {
+  it('should get data when calling one of the daily cases request - getNov2020', async () => {
     (global as any).fetch = jest.fn(() =>
       Promise.resolve({
         json: () => Promise.resolve({ Code: 198 }),
@@ -56,10 +56,10 @@ describe('CoronaVirusApiWrapper Library', function () {
     const api = new CoronaVirusApiWrapper({
       token: "token"
     });
-    const data: IGlobalDailyReport = await api.getAug2020() as IGlobalDailyReport;
+    const data: IGlobalDailyReport = await api.getNov2020() as IGlobalDailyReport;
     expect(data.Code).toBe(198);
   });
-  it('should get data when calling one of the dailly cases request - getApr2020', async () => {
+  it('should get data when calling one of the dailly cases request - getDec2020', async () => {
     (global as any).fetch = jest.fn(() =>
       Promise.resolve({
         json: () => Promise.resolve({ Code: 198 }),
@@ -68,7 +68,7 @@ describe('CoronaVirusApiWrapper Library', function () {
     const api = new CoronaVirusApiWrapper({
       token: "token"
     });
-    const data: IGlobalDailyReport = await api.getApr2020() as IGlobalDailyReport;
+    const data: IGlobalDailyReport = await api.getDec2020() as IGlobalDailyReport;
     expect(data.Code).toBe(198);
   });
   it('should get data even if token is undefined', async () => {
