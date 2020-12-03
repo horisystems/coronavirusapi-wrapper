@@ -84,9 +84,9 @@ const apiWrapper = new CoronaVirusApiWrapper({
   token: "Your_Token"
 });
 
-// Daily reports for Sep-2020
-apiWrapper.getSep2020().then(function (d) {
-  console.log("Daily reports for September 2020");
+// Daily reports for Dec-2020
+apiWrapper.getDec2020().then(function (d) {
+  console.log("Daily reports for December 2020");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
