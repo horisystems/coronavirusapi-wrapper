@@ -40,7 +40,7 @@
     "library"
   ],
   "author": "Finbarrs Oketunji <tech@cloudeya.org> (https://cloudeya.org/)",
-  "license": "WTFPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Cloudeya/coronavirusapi-wrapper/issues"
   },
