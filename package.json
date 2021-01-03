@@ -1,6 +1,6 @@
 {
   "name": "coronavirusapi-wrapper",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "A wrapper to work with the Coronavirus API.",
   "main": "dist/index.js",
   "scripts": {
@@ -18,8 +18,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "commit": "git commit -s -m december endpoint",
-    "postversion": "git push && git tag v2.0.8 && git push --tags",
+    "commit": "git commit -s -m january2021 endpoint",
+    "postversion": "git push && git tag v2.0.9 && git push --tags",
     "publish": "npm publish"
   },
   "files": [
