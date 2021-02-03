@@ -19,7 +19,7 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "commit": "git commit -s -m january2021 endpoint",
-    "tag": "git tag -a v2.1.0",
+    "tag": "git tag -s -a v2.1.0",
     "postversion": "git push && git tag v2.0.9 && git push --tags",
     "publish": "npm publish"
   },
