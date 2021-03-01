@@ -24,7 +24,7 @@ describe('CoronaVirusApiWrapper Library', function () {
 
   it('should use the default apiURL if not provided', () => {
     const api = new CoronaVirusApiWrapper({});
-    expect(api.apiURL).toBe('https://covid19.cloudeya.org');
+    expect(api.apiURL).toBe('https://api.covid19api.dev');
   });
 
   it('should receive token as an option', () => {
@@ -34,7 +34,7 @@ describe('CoronaVirusApiWrapper Library', function () {
 
     expect(api.token).toBe('foo');
   });
-  it('should request a token when provding username and password', async () => {
+  it('should request a token when providing username and password', async () => {
     (global as any).fetch = jest.fn(() =>
       Promise.resolve({
         text: () => Promise.resolve("token"),
@@ -59,7 +59,7 @@ describe('CoronaVirusApiWrapper Library', function () {
     const data: IGlobalDailyReport = await api.getNov2020() as IGlobalDailyReport;
     expect(data.Code).toBe(198);
   });
-  it('should get data when calling one of the dailly cases request - getDec2020', async () => {
+  it('should get data when calling one of the daily cases request - getDec2020', async () => {
     (global as any).fetch = jest.fn(() =>
       Promise.resolve({
         json: () => Promise.resolve({ Code: 198 }),
