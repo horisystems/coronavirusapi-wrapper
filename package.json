@@ -1,6 +1,6 @@
 {
   "name": "coronavirusapi-wrapper",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A wrapper to work with the Coronavirus API.",
   "main": "dist/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cloudeya/coronavirusapi-wrapper.git"
+    "url": "git+https://github.com/phooni/coronavirusapi-wrapper.git"
   },
   "keywords": [
     "coronavirus",
@@ -42,12 +42,12 @@
     "tdd",
     "library"
   ],
-  "author": "Finbarrs Oketunji <tech@cloudeya.org> (https://cloudeya.org/)",
+  "author": "Finbarrs Oketunji <f@finbarrs.eu> (https://finbarrs.eu/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Cloudeya/coronavirusapi-wrapper/issues"
+    "url": "https://github.com/phooni/coronavirusapi-wrapper/issues"
   },
-  "homepage": "https://github.com/Cloudeya/coronavirusapi-wrapper#readme",
+  "homepage": "https://github.com/phooni/coronavirusapi-wrapper#readme",
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/node": "^14.10.2",
