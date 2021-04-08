@@ -106,5 +106,5 @@ This project is licensed under the [WTFPL License](LICENSE) - see the file for d
 
 ## Copyright
 
-(c) 2020 [Phooni Limited](https://phooni.com).
+(c) 2021 [Phooni Limited](https://phooni.com).
 
