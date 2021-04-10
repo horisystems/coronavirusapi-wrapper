@@ -4,16 +4,16 @@
 	<h1>Coronavirus API Wrapper</h1>
 	<strong> <i>A wrapper to work with the <a href="https://www.covid19api.dev/">Coronavirus API</a></i></strong><br><br>
 
-![GitHub top language](https://img.shields.io/github/languages/top/Cloudeya/coronavirusapi-wrapper)
+![GitHub top language](https://img.shields.io/github/languages/top/phooni/coronavirusapi-wrapper)
 ![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/coronavirusapi-wrapper)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/Cloudeya/coronavirusapi-wrapper)
-![GitHub last commit](https://img.shields.io/github/last-commit/Cloudeya/coronavirusapi-wrapper)<br>
+![GitHub package.json version](https://img.shields.io/github/package-json/v/phooni/coronavirusapi-wrapper)
+![GitHub last commit](https://img.shields.io/github/last-commit/phooni/coronavirusapi-wrapper)<br>
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/coronavirusapi-wrapper)
-[![Build Status](https://travis-ci.org/Cloudeya/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.org/Cloudeya/coronavirusapi-wrapper)
+[![Build Status](https://travis-ci.org/phooni/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.org/phooni/coronavirusapi-wrapper)
 ![npm](https://img.shields.io/npm/dw/coronavirusapi-wrapper)<br>
-![GitHub issues](https://img.shields.io/github/issues-raw/Cloudeya/coronavirusapi-wrapper)
-![License](https://img.shields.io/github/license/Cloudeya/coronavirusapi-wrapper)
-![Profile visits](https://badges.pufler.dev/visits/Cloudeya/coronavirusapi-wrapper)
+![GitHub issues](https://img.shields.io/github/issues-raw/phooni/coronavirusapi-wrapper)
+![License](https://img.shields.io/github/license/phooni/coronavirusapi-wrapper)
+![Profile visits](https://badges.pufler.dev/visits/phooni/coronavirusapi-wrapper)
 
 </div>
 <br>
