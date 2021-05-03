@@ -36,15 +36,15 @@ const apiWrapper = new CoronaVirusApiWrapper({
   token: "Your_Token"
 });
 
-// Daily Reports for December 2020
-apiWrapper.this.getReportsAt(new Date(Date.parse('dec-2020'))).then(function (d) {
-  console.log("Daily Reports for December 2020");
+// Daily Reports for May 2021
+apiWrapper.this.getReportsAt(new Date(Date.parse('may-2021'))).then(function (d) {
+  console.log("Daily Reports for May 2021");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
-// Daily Reports for December 2020
-apiWrapper.getDec2020().then(function (d) {
-  console.log("Daily Reports for December 2020");
+// Daily Reports for May 2021
+apiWrapper.getMay2021().then(function (d) {
+  console.log("Daily Reports for May 2021");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
@@ -84,9 +84,9 @@ const apiWrapper = new CoronaVirusApiWrapper({
   token: "Your_Token"
 });
 
-// Daily reports for Dec-2020
-apiWrapper.getDec2020().then(function (d) {
-  console.log("Daily reports for December 2020");
+// Daily reports for May-2021
+apiWrapper.getMay2021().then(function (d) {
+  console.log("Daily reports for May 2021");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
@@ -106,5 +106,5 @@ This project is licensed under the [WTFPL License](LICENSE) - see the file for d
 
 ## Copyright
 
-(c) 2021 [Phooni Limited](https://phooni.com).
+(c) 2020 [Phooni Limited](https://phooni.com).
 
