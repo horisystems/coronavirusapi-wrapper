@@ -4,15 +4,15 @@ const apiWrapper = new CoronaVirusApiWrapper({
   token: "Your_Token"
 });
 
-// Daily Reports for January 2020
-apiWrapper.this.getReportsAt(new Date(Date.parse('jan-2020'))).then(function (d) {
-  console.log("Daily Reports for January 2020");
+// Daily Reports for May 2020
+apiWrapper.this.getReportsAt(new Date(Date.parse('may-2020'))).then(function (d) {
+  console.log("Daily Reports for May 2020");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
-// Daily Reports for January 2021
-apiWrapper.getJan2021().then(function (d) {
-  console.log("Daily Reports for January 2021");
+// Daily Reports for May 2021
+apiWrapper.getMay2021().then(function (d) {
+  console.log("Daily Reports for May 2021");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
