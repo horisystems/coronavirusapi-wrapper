@@ -9,7 +9,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/phooni/coronavirusapi-wrapper)
 ![GitHub last commit](https://img.shields.io/github/last-commit/phooni/coronavirusapi-wrapper)<br>
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/coronavirusapi-wrapper)
-[![Build Status](https://travis-ci.org/phooni/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.org/phooni/coronavirusapi-wrapper)
+[![Build Status](https://travis-ci.com/phooni/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.com/phooni/coronavirusapi-wrapper)
 ![npm](https://img.shields.io/npm/dw/coronavirusapi-wrapper)<br>
 ![GitHub issues](https://img.shields.io/github/issues-raw/phooni/coronavirusapi-wrapper)
 ![License](https://img.shields.io/github/license/phooni/coronavirusapi-wrapper)
