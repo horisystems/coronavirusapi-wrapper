@@ -4,15 +4,15 @@ const apiWrapper = new CoronaVirusApiWrapper({
   token: "Your_Token"
 });
 
-// Daily Reports for August 2020
-apiWrapper.this.getReportsAt(new Date(Date.parse('aug-2020'))).then(function (d) {
-  console.log("Daily Reports for August 2020");
+// Daily Reports for September 2020
+apiWrapper.this.getReportsAt(new Date(Date.parse('sep-2020'))).then(function (d) {
+  console.log("Daily Reports for September 2020");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
-// Daily Reports for August 2021
-apiWrapper.getAug2021().then(function (d) {
-  console.log("Daily Reports for August 2021");
+// Daily Reports for September 2021
+apiWrapper.getSep2021().then(function (d) {
+  console.log("Daily Reports for September 2021");
   console.log({ code: d.Code, message: d.Message, 1: d.Document[0], 2: d.Document[1] });
 });
 
