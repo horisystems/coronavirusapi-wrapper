@@ -29,7 +29,10 @@ export default class CoronaVirusApiWrapper {
 
   constructor(config: CoronaVirusApiWrapperConfig) {
     if (!config.token && config.password && config.username) {
-      this.token = this.getTokenUsingCredentials(config.username, config.password);
+      this.token = this.getTokenUsingCredentials(
+        config.username,
+        config.password
+      );
     } else if (config.token) {
       this.token = config.token;
     }
@@ -45,8 +48,7 @@ export default class CoronaVirusApiWrapper {
       method: "GET",
       headers: {
         "Content-type": "application/json",
-      }
-      ,
+      },
       body: JSON.stringify(credentials),
     });
 
@@ -64,8 +66,8 @@ export default class CoronaVirusApiWrapper {
     if (token) {
       headers = {
         ...headers,
-        "Authorization": "Bearer " + token
-      }
+        Authorization: "Bearer " + token,
+      };
     }
     try {
       const response = await fetch(`${this.apiURL}/${monthYear}`, {
@@ -174,6 +176,10 @@ export default class CoronaVirusApiWrapper {
     return this.getReportsAt(new Date(Date.parse("dec-2021")));
   }
 
+  getJan2022(): Promise<IGlobalDailyReport | Error> {
+    return this.getReportsAt(new Date(Date.parse("jan-2022")));
+  }
+
   async getTimeSeriesFor(
     type: TimeSeriesType,
     country: TimeSeriesCountry
@@ -187,8 +193,8 @@ export default class CoronaVirusApiWrapper {
     if (token) {
       headers = {
         ...headers,
-        "Authorization": "Bearer " + token
-      }
+        Authorization: "Bearer " + token,
+      };
     }
     try {
       const response = await fetch(url, {
