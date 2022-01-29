@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phooni/coronavirusapi-wrapper.git"
+    "url": "git+https://github.com/moatsystems/coronavirusapi-wrapper.git"
   },
   "keywords": [
     "coronavirus",
@@ -44,9 +44,9 @@
   "author": "Finbarrs Oketunji <f@finbarrs.eu> (https://finbarrs.eu/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phooni/coronavirusapi-wrapper/issues"
+    "url": "https://github.com/moatsystems/coronavirusapi-wrapper/issues"
   },
-  "homepage": "https://github.com/phooni/coronavirusapi-wrapper#readme",
+  "homepage": "https://github.com/moatsystems/coronavirusapi-wrapper#readme",
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/node": "^14.10.2",

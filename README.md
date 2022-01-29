@@ -4,16 +4,16 @@
 	<h1>Coronavirus API Wrapper</h1>
 	<strong> <i>A wrapper to work with the <a href="https://docs.covid19api.dev">Coronavirus API</a></i></strong><br><br>
 
-![GitHub top language](https://img.shields.io/github/languages/top/phooni/coronavirusapi-wrapper)
+![GitHub top language](https://img.shields.io/github/languages/top/moatsystems/coronavirusapi-wrapper)
 ![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/coronavirusapi-wrapper)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/phooni/coronavirusapi-wrapper)
-![GitHub last commit](https://img.shields.io/github/last-commit/phooni/coronavirusapi-wrapper)<br>
+![GitHub package.json version](https://img.shields.io/github/package-json/v/moatsystems/coronavirusapi-wrapper)
+![GitHub last commit](https://img.shields.io/github/last-commit/moatsystems/coronavirusapi-wrapper)<br>
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/coronavirusapi-wrapper)
-[![Build Status](https://travis-ci.com/phooni/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.com/phooni/coronavirusapi-wrapper)
+[![Build Status](https://travis-ci.com/moatsystems/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.com/moatsystems/coronavirusapi-wrapper)
 ![npm](https://img.shields.io/npm/dw/coronavirusapi-wrapper)<br>
-![GitHub issues](https://img.shields.io/github/issues-raw/phooni/coronavirusapi-wrapper)
-![License](https://img.shields.io/github/license/phooni/coronavirusapi-wrapper)
-![Profile visits](https://badges.pufler.dev/visits/phooni/coronavirusapi-wrapper)
+![GitHub issues](https://img.shields.io/github/issues-raw/moatsystems/coronavirusapi-wrapper)
+![License](https://img.shields.io/github/license/moatsystems/coronavirusapi-wrapper)
+![Profile visits](https://badges.pufler.dev/visits/moatsystems/coronavirusapi-wrapper)
 
 </div>
 <br>
@@ -106,5 +106,5 @@ This project is licensed under the [WTFPL License](LICENSE) - see the file for d
 
 ## Copyright
 
-(c) 2020 [Phooni Limited](https://phooni.com).
+(c) 2020 [Moat Systems Limited](https://moatsystems.com).
 
