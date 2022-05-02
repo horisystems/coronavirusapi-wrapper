@@ -192,6 +192,10 @@ export default class CoronaVirusApiWrapper {
     return this.getReportsAt(new Date(Date.parse("apr-2022")));
   }
 
+  getMay2022(): Promise<IGlobalDailyReport | Error> {
+    return this.getReportsAt(new Date(Date.parse("may-2022")));
+  }
+
   async getTimeSeriesFor(
     type: TimeSeriesType,
     country: TimeSeriesCountry
