@@ -18,7 +18,7 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "commit": "git commit -s -m april2022 endpoint",
+    "commit": "git commit -s -m jul2022 endpoint",
     "tag": "git tag -s -a v2.2.9 -m v2.2.9 && git push origin --tags",
     "delete:local:tag": "git tag -d v2.2.9",
     "delete:remote:tag": "git push origin --delete v2.2.9",
