@@ -4,16 +4,16 @@
 	<h1>COVID-19 API SDK for JavaScript</h1>
     <strong> <i>Develop and deploy applications, mobile and web, with popular JavaScript Frameworks using <a href="https://moatsystems.com/covid19-api/">COVID19 API</a> SDK for JavaScript.</i></strong><br><br>
 
-![GitHub top language](https://img.shields.io/github/languages/top/moatsystems/covid19-js-sdk)
-![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/covid19-js-sdk)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/moatsystems/covid19-js-sdk)
-![GitHub last commit](https://img.shields.io/github/last-commit/moatsystems/covid19-js-sdk)<br>
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/covid19-js-sdk)
-[![Build Status](https://travis-ci.com/moatsystems/covid19-js-sdk.svg?branch=master)](https://travis-ci.com/moatsystems/covid19-js-sdk)
-![npm](https://img.shields.io/npm/dw/covid19-js-sdk)<br>
-![GitHub issues](https://img.shields.io/github/issues-raw/moatsystems/covid19-js-sdk)
-![License](https://img.shields.io/github/license/moatsystems/covid19-js-sdk)
-![Profile visits](https://badges.pufler.dev/visits/moatsystems/covid19-js-sdk)
+![GitHub top language](https://img.shields.io/github/languages/top/moatsystems/coronavirusapi-wrapper)
+![Snyk Vulnerabilities for npm scoped package](https://img.shields.io/snyk/vulnerabilities/npm/coronavirusapi-wrapper)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/moatsystems/coronavirusapi-wrapper)
+![GitHub last commit](https://img.shields.io/github/last-commit/moatsystems/coronavirusapi-wrapper)<br>
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/coronavirusapi-wrapper)
+[![Build Status](https://travis-ci.com/moatsystems/coronavirusapi-wrapper.svg?branch=master)](https://travis-ci.com/moatsystems/coronavirusapi-wrapper)
+![npm](https://img.shields.io/npm/dw/coronavirusapi-wrapper)<br>
+![GitHub issues](https://img.shields.io/github/issues-raw/moatsystems/coronavirusapi-wrapper)
+![License](https://img.shields.io/github/license/moatsystems/coronavirusapi-wrapper)
+![Profile visits](https://badges.pufler.dev/visits/moatsystems/coronavirusapi-wrapper)
 
 </div>
 <br>
@@ -32,7 +32,7 @@ yarn add coronavirusapi-wrapper
 ### Usage
 
 ```JavaScript
-import { sdk, usDeath, usConfirmed, globalConfirmed, globalDeath, globalDailyReport, globalRecovered } from "covid19-js-sdk";
+import { sdk, usDeath, usConfirmed, globalConfirmed, globalDeath, globalDailyReport, globalRecovered } from "coronavirusapi-wrapper";
 
 // first, authenticate
 sdk.auth("<username>", "<password>"); 
