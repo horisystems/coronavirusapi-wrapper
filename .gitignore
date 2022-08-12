@@ -28,6 +28,10 @@ coverage
 build/Release
 
 # Dependency directories
+<<<<<<< HEAD
+=======
+yarn.lock
+>>>>>>> 41073ea (v3.0.1)
 node_modules
 jspm_packages
 package-lock.json

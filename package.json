@@ -1,5 +1,6 @@
 {
   "name": "coronavirusapi-wrapper",
+<<<<<<< HEAD
   "version": "2.2.9",
   "description": "A wrapper to work with the Coronavirus API.",
   "main": "dist/index.js",
@@ -60,5 +61,52 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.0.2",
     "uglify-js": "^3.10.4"
+=======
+  "version": "3.0.1",
+  "description": "COVID-19 API SDK for JavaScript.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "tag": "git tag -s -a v3.0.0 -m \"v3.0.0\" && git push origin --tags",
+    "delete:local:tag": "git tag -d v3.0.0",
+    "delete:remote:tag": "git push origin --delete v3.0.0",
+    "delete": "npm run delete:local:tag && npm run delete:remote:tag",
+    "release": "gh release create v3.0.0 --notes \"v3.0.0 release\"",
+    "prepublishOnly": "npm run format",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "\"coronavirusapi-wrapper\"",
+    "\"covid\"",
+    "\"covid19\"",
+    "\"coronavirus\"",
+    "\"api\"",
+    "\"sdk\"",
+    "\"js\"",
+    "\"tdd\"",
+    "\"library\""
+  ],
+  "author": "Moat Systems Limited",
+  "license": "BSD-3-Clause",
+  "homepage": "https://moatsystems.com/covid19-api/",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "prettier": "^2.7.1",
+    "tslib": "^2.4.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4",
+    "uglify-js": "^3.16.3"
+>>>>>>> 41073ea (v3.0.1)
   }
 }
