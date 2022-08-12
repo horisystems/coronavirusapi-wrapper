@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import CoronaVirusApiWrapper from "./CoronaVirusApiWrapper";
-import { Confirmed, Deaths, Global, Recovered, US } from "./utils";
-
-export { Confirmed, Deaths, Global, Recovered, US };
-export default CoronaVirusApiWrapper;
-=======
 export { sdk } from "./sdk";
 import { GlobalConfirmed } from "./apis/global_confirmed";
 import { USConfirmed } from "./apis/us_confirmed";
@@ -19,4 +12,3 @@ export const globalDailyReport = new GlobalDailyReport();
 export const globalRecovered = new GlobalRecovered();
 export const usConfirmed = new USConfirmed();
 export const usDeath = new USDeath();
->>>>>>> 41073ea (v3.0.1)

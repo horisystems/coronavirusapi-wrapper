@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-{
-  "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": false,
-    "moduleResolution": "node",
-    "lib": [
-      "ES5",
-      "DOM",
-      "ES2015.Promise",
-    ]
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "*/__tests__/**"
-  ]
-}
-=======
 {
   "include": ["src"],
   "compilerOptions": {
@@ -36,4 +10,3 @@
   },
   "exclude": ["./tests", "node_modules"]
 }
->>>>>>> 41073ea (v3.0.1)
