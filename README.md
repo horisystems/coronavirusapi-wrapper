@@ -13,7 +13,6 @@
 ![npm](https://img.shields.io/npm/dw/coronavirusapi-wrapper)<br>
 ![GitHub issues](https://img.shields.io/github/issues-raw/moatsystems/coronavirusapi-wrapper)
 ![License](https://img.shields.io/github/license/moatsystems/coronavirusapi-wrapper)
-![Profile visits](https://badges.pufler.dev/visits/moatsystems/coronavirusapi-wrapper)
 
 </div>
 <br>
