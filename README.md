@@ -65,4 +65,4 @@ This project is licensed under the [BSD 3-Clause License](LICENSE) - see the fil
 
 ### Copyright
 
-(c) 2020-2022 [Moat Systems Limited](https://moatsystems.com).
+(c) 2020-2023 [Moat Systems Limited](https://moatsystems.com).

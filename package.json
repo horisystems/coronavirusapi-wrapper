@@ -1,6 +1,6 @@
 {
   "name": "coronavirusapi-wrapper",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "COVID-19 API SDK for JavaScript.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,11 +10,11 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
-    "tag": "git tag -s -a v3.0.3 -m \"v3.0.3\" && git push origin --tags",
-    "delete:local:tag": "git tag -d v3.0.3",
-    "delete:remote:tag": "git push origin --delete v3.0.3",
+    "tag": "git tag -s -a v3.0.4 -m \"v3.0.4\" && git push origin --tags",
+    "delete:local:tag": "git tag -d v3.0.4",
+    "delete:remote:tag": "git push origin --delete v3.0.4",
     "delete": "npm run delete:local:tag && npm run delete:remote:tag",
-    "release": "gh release create v3.0.3 --notes \"v3.0.3 release\"",
+    "release": "gh release create v3.0.4 --notes \"v3.0.4 release\"",
     "prepublishOnly": "npm run format",
     "publish": "npm publish"
   },

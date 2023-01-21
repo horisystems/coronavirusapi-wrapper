@@ -1,23 +1,23 @@
 import request from "../request";
 
 export class GlobalDeath {
-  getAll() {
-    return request.get("v2/time_series_deaths_global");
+  getAll(year: string) {
+    return request.get(`v2/time_series_deaths_global/${year}`);
   }
 
-  getById(id: string) {
-    return request.get(`v2/time_series_deaths_global/${id}`);
+  getById(year: string, id: number) {
+    return request.get(`v2/time_series_deaths_global/${year}/${id}`);
   }
 
-  create(data: object) {
-    return request.post("v2/time_series_deaths_global", data);
+  create(year: string, data: object) {
+    return request.post(`v2/time_series_deaths_global/${year}`, data);
   }
 
-  updateById(id: string, data: object) {
-    return request.put(`v2/time_series_deaths_global/${id}`, data);
+  updateById(year: string, id: number, data: object) {
+    return request.put(`v2/time_series_deaths_global/${year}/${id}`, data);
   }
 
-  deleteById(id: string) {
-    return request.delete(`v2/time_series_deaths_global/${id}`);
+  deleteById(year: string, id: number) {
+    return request.delete(`v2/time_series_deaths_global/${year}/${id}`);
   }
 }
